@@ -1,0 +1,87 @@
+
+.container {
+    width:1024px;
+    margin: 0 auto;
+}
+nav {
+    float: right;
+}
+#bio-image {
+     margin-right: 25px;
+}
+
+/* #main-bio,
+#contact-info {
+    float: left;
+}*/
+
+.photo{
+    display:flex;
+
+}
+
+img { 
+    width: 20%;
+    height: auto;
+}
+body {background-color: rgb(224, 220, 208);}
+.picture{
+    background-image:url("http://st.depositphotos.com/2726735/3242/i/450/depositphotos_32426959-Autumn-park.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+h1   {color: rgba(48, 32, 2, 0.062) (255, 255, 255);}
+p    {color: rgba(88, 61, 10, 0.445) (133, 91, 15, 0.274);}
+header {background-color: rgba(109, 74, 8, 0.37); }
+
+#main-bio {margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #bb7a1f(12, 8, 8, 0.185);
+    color: #ffffff;
+
+}
+#contact-info { margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    
+    background-color: #bb7a1f;
+    color: #252014
+
+}
+
+.gallery {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #bb7a1f;
+    color: #ffffff;
+}
+.footer {
+    padding: 30px;
+    clear: both;
+    
+    text-align: center;
+}
+.par{ font-size: 40px;
+    font-style: normal;
+}
+.comments{ font-size: 20px;
+    font-style: normal;
+
+}
+
+.footer h2 {
+    font-size: 20px;
+    
+}
+.bio{
+    width: 50%
+    
+
+}
+.gallery:hover {
+    background-color:rgb(90, 90, 7);
+}
+#contact-info:hover { background-color:rgb(90, 90, 7);
+}
